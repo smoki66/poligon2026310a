@@ -11,8 +11,9 @@ namespace poligon2026310a
         static void Main(string[] args)
         {
             // Milos Pusic
-            Console.WriteLine("Pozdrav za 3-10");
-            Console.WriteLine("opet");
+            tacka a = new tacka(-1, -1);
+            Console.WriteLine(a.ugao());
+            Console.WriteLine(a.d());
         }
     }
 }
